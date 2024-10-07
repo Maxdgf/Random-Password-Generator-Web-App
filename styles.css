@@ -1,0 +1,116 @@
+body {
+    background-color: #ebfab4;
+    filter: opacity(0.8); 
+}
+
+.description__block {
+    text-align: center;
+    border: 2px solid black;
+}
+
+.main__block {
+    border: 2px solid black;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#csb {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.number__option {
+    display: flex;
+    justify-content: center;  
+}
+
+.letters__option {
+    display: flex;
+    justify-content: center;
+}
+
+.special__symbols__option {
+    display: flex;
+    justify-content: center;
+}
+
+.result__block {
+    display: flex;
+    justify-content: center;
+}
+
+#result {
+    background-color: white;
+    width: 300px;
+    height: auto;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#warning__count {
+    background-color: red;
+    text-align: center;
+    margin-right: 35%;
+    margin-left: 35%;
+    border: 2px solid red;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+.generate__action {
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-right: 35%;
+    margin-left: 35%;
+}
+
+#btn__generate {
+    background-color: chartreuse;
+    margin-bottom: 10px;
+}
+
+.copy__block {
+    display: flex;
+    justify-content: center;
+}
+
+#copy__btn {
+    width: 100px;
+    background-color: gold;
+    margin-bottom: 5px;
+}
+
+.down__info__block {
+    border: 2px solid black;
+    margin-top: 170px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+#copy__indekator {
+    color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#error__detector {
+    color: crimson;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.instruction__block {
+    border: 2px solid black;
+    margin-top: 10px;
+}
+
+.params {
+    border: 2px solid black;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: white;
+}
