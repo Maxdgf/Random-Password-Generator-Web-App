@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Random Password Generator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="siteIcon.ico" />
+        <link rel="stylesheet" href="styles.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div class="description__block">
+            <h1 id="logo">Random Password Generator</h1>
+            <h3 id="text">generate your password.</h3>
+        </div>
+        <div class="main__block">
+            <div class="count__symbols__block">
+                <p>enter symbols count:</p>
+                <p id="warning__count">!max count: 50 symbols!</p>
+                <label for="csb">
+                    <input type="number" min="0" placeholder="0" id="csb">
+                </label>
+            </div>
+            <div class="number__option">
+                <p>numbers:</p>
+                <input type="checkbox" id="no">
+            </div>
+            <div class="letters__option">
+                <p>letters:</p>
+                <input type="checkbox" id="lo">
+            </div>
+            <div class="special__symbols__option">
+                <p>special symbols:</p>
+                <input type="checkbox" id="sso">
+            </div>
+            <div class="generate__action">
+                <p>click to generate password</p>
+                <button id="btn__generate" onclick="Generate_Random_Password()">Generate password</button>
+            </div>
+            <div class="result__block">
+                <p>result:</p>
+                <label for="result">
+                    <textarea id="result" placeholder="your password here" title="password field"></textarea>
+                </label>
+                <p id="copy__indekator"></p>
+            </div>
+            <div class="error__block">
+                <p id="error__detector"></p>
+            </div>
+            <div class="copy__block">
+                <button id="copy__btn" onclick="Copy_Password()">copy password</button>
+            </div>
+        </div>
+        <div class="instruction__block">
+            <h2>Instruction</h2>
+            <h3>Parameters:</h3>
+            <div class="params">
+                <h4>symbols count - (range 0 - 50)</h4>
+                <h4>numbers - 0123456789</h4>
+                <h4>letters - abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</h4>
+                <h4>special symbols - !@#$%^&*()_+[]{}|;:',.<>?/`~</h4>
+            </div>
+            <h3>How to generate password?</h3>
+            <h4>To generate a password, select the parameters you need (which are listed above). After selecting the parameters, click on the "generate password" button and the ready password will be placed in a convenient text field from where it can be copied to the clipboard by clicking the "copy password" button.</h4>
+        </div>
+        <div class="down__info__block">
+            <div class="copyright">
+                <p>Hi, i'm a novice developer Max, this is my first working website in the internet!</p>
+                <p>My github account:</p>
+                <a href="https://github.com/Maxdgf">https://github.com/Maxdgf</a>
+                <p>october 2024</p>
+            </div>
+        </div>
+    </body>
+</html>
